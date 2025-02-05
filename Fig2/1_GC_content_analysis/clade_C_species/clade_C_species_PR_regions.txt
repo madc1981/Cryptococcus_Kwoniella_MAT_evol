@@ -1,0 +1,5 @@
+Cryptococcus_floricola_DSM27421	RRZH01000012.1:635001-736503
+Cryptococcus_amylolentus_CBS6273	MEKH01000009.1:633487-734272
+Cryptococcus_amylolentus_CBS6039	NW_017566896.1:624921-719288
+Cryptococcus_wingfieldii_CBS7118	CP034269.1:537915-631051
+Cryptococcus_sp._OR849	chr_11:580724-668098

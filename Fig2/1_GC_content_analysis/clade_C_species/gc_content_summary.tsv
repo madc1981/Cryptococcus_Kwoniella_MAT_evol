@@ -1,0 +1,6 @@
+Strain	Genome average GC content (%)	Specified region GC content (%)	T-test statistic	T-test p-value	Z-score of specified region	Permutation test p-value
+Cryptococcus_floricola_DSM27421	53.52	51.56	100.01	0.00000	-3.16	0.01060
+Cryptococcus_amylolentus_CBS6273	53.17	51.21	43.73	0.00000	-1.38	0.04720
+Cryptococcus_amylolentus_CBS6039	53.36	51.24	65.03	0.00000	-2.06	0.03100
+Cryptococcus_wingfieldii_CBS7118	53.46	50.82	126.43	0.00000	-4.00	0.00690
+Cryptococcus_sp._OR849	53.40	50.74	102.70	0.00000	-3.25	0.02560

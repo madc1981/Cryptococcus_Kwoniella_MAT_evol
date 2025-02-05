@@ -1,0 +1,35 @@
+Species_strain_ID	Mating_Type	MAT_length
+Cryptococcus_neoformans_T4	MATalpha	115264
+Cryptococcus_neoformans_PMHc1023.ENR	MATalpha	115537
+Cryptococcus_neoformans_C45	MATalpha	115545
+Cryptococcus_neoformans_Bt1	MATalpha	102281
+Cryptococcus_neoformans_Ze90-1	MATalpha	113019
+Cryptococcus_neoformans_Bt89	MATalpha	103878
+Cryptococcus_neoformans_Ftc146-1	MATalpha	102243
+Cryptococcus_neoformans_Bt22	MATalpha	102445
+Cryptococcus_neoformans_A5-35-17	MATalpha	104767
+Cryptococcus_neoformans_Bt106	MATalpha	104749
+Cryptococcus_neoformans_AD1-7a	MATalpha	104757
+Cryptococcus_neoformans_A1-35-8	MATalpha	104810
+Cryptococcus_neoformans_H99-1	MATalpha	104793
+Cryptococcus_neoformans_125.91	MATa	134582
+Cryptococcus_neoformans_Bt130	MATa	123795
+Cryptococcus_neoformans_IUM96-2828	MATa	126954
+Cryptococcus_neoformans_Ftc555-1	MATa	123458
+Cryptococcus_neoformans_Bt63	MATa	123167
+Cryptococcus_neoformans_Bt81	MATa	121747
+Cryptococcus_neoformans_Bt65	MATa	121816
+Cryptococcus_neoformans_Bt133	MATa	121917
+Cryptococcus_neoformans_Bt88	MATa	122182
+Cryptococcus_neoformans_Bt206	MATa	122280
+
+Mann-Whitney U Test Statistic	0.0
+Mann-Whitney U Test P-value	3.166e-05
+
+Mean MAT_length (MATalpha)	107237.5
+Standard Deviation MAT_length (MATalpha)	5399.3
+Median MAT_length (MATalpha)	104767.0
+
+Mean MAT_length (MATa)	124189.8
+Standard Deviation MAT_length (MATa)	3969.6
+Median MAT_length (MATa)	122723.5

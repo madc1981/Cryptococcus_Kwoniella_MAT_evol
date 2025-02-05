@@ -1,0 +1,5 @@
+Strain	Genome average GC content (%)	Specified region GC content (%)	T-test statistic	T-test p-value	Z-score of specified region	Permutation test p-value
+Cryptococcus_sp._DSM108351	59.24	49.17	199.19	0.00000	-6.30	0.00180
+Cryptococcus_sp._NCYC1536	59.24	49.20	202.50	0.00000	-6.41	0.00080
+Cryptococcus_sp._DSM109063	58.22	49.25	197.47	0.00000	-6.25	0.00280
+Cryptococcus_sp._OR918	58.04	48.47	228.30	0.00000	-7.22	0.00130

@@ -1,0 +1,12 @@
+Species_strain_ID	chr	MAT_start	MAT_end	MAT_length	Mating_Type
+Cryptococcus_bacillisporus_CA1280	chr_5	1280938	1394505	113568	MATalpha
+Cryptococcus_bacillisporus_CA1873	chr_5	1279173	1391084	111912	MATa
+Cryptococcus_decagattii_7685027	chr_9	136707	246817	110111	MATalpha
+Cryptococcus_decagattii_CBS11687	chr_9	159991	278153	118163	MATa
+Cryptococcus_gatti_WM276	chr_10	154387	267817	113431	MATalpha
+Cryptococcus_gattii_E566	chr_10	155017	280087	125071	MATa
+Cryptococcus_tetragattii_IND107	ctg_10	140257	236611	96355	MATalpha
+Cryptococcus_tetragattii_CBS11718	chr_10	141087	263463	122377	MATa
+Cryptococcus_gatti_MF34	VHDQ01000009.1	147381	255864	108484	MATalpha
+Cryptococcus_deuterogattii_R265	CP025767.1	155340	254303	98964	MATalpha
+Cryptococcus_deuterogattii_CBS10090	chr_9	141541	250723	109183	MATa

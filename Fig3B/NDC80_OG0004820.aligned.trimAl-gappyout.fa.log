@@ -1,0 +1,224 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    scserver (AVX2, FMA3, 110 GB RAM)
+Command: iqtree2 -s ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa -m MFP -msub nuclear -B 1000 -alrt 1000 -T 14
+Seed:    517341 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Nov  3 11:46:17 2024
+Kernel:  AVX+FMA - 14 threads (32 CPU cores detected)
+
+Reading alignment file ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 51 sequences with 673 columns, 627 distinct patterns
+513 parsimony-informative, 91 singleton sites, 69 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+   1  CNAG_07635_C_neoformans_H99_a1                 0.30%    passed     99.99%
+   2  AAG662_003143_C_neoformans_125.91_a2           0.30%    passed    100.00%
+   3  V5N60_003039_C_deneoformans_NIH12_a1           0.30%    passed     99.96%
+   4  V5N66_003059_C_deneoformans_NIH433_a2          0.30%    passed     99.95%
+   5  IAS59_003330_C_gattii_WM276_a1                 0.30%    passed    100.00%
+   6  V5J25_003187_C_gattii_E566_a2                  0.30%    passed    100.00%
+   7  CNBG_3992_C_deuterogattii_R265_a1              0.30%    passed    100.00%
+   8  V5J17_003683_C_deuterogattii_CBS10090_a2       0.30%    passed    100.00%
+   9  I312_104442_C_bacillisporus_CA1280_a1          0.30%    passed    100.00%
+  10  I314_103920_C_bacillisporus_CA1873_a2          0.30%    passed    100.00%
+  11  I308_103250_C_tetragattii_IND107_a1            0.30%    passed    100.00%
+  12  V5J30_003159_C_tetragattii_CBS11718_a2         0.30%    passed    100.00%
+  13  D1P53_101319_C_sp._MF34_a1                     0.30%    passed    100.00%
+  14  IAS62_004458_C_decagattii_7685027_a1           0.30%    passed    100.00%
+  15  V5J33_004210_C_decagattii_CBS11687_a2          0.30%    passed    100.00%
+  16  V5J38_003808_C_sp._CMW60451_a1                 4.75%    passed     99.24%
+  17  L203_104463_C_depauperatus_CBS7841_a2          0.74%    passed     99.95%
+  18  L204_104426_C_depauperatus_CBS7855_a2          0.74%    passed     99.93%
+  19  D9759_006869_C_floricola_DSM27421_a1           3.86%    passed     99.73%
+  20  D9760_005618_C_wingfieldii_CBS7118_a2          4.16%    passed     97.53%
+  21  L202_06525_C_amylolentus_CBS6039_a2            4.16%    passed     99.20%
+  22  I350_05952_C_amylolentus_CBS6273_a1            3.71%    passed     98.43%
+  23  IAR50_006442_C_sp._OR849_a1                    4.16%    passed     89.61%
+  24  V3C44_001645_C_sp._DSM108351_a1                2.23%    passed     48.33%
+  25  V3C42_001661_C_sp._NCYC1536_a2                 2.23%    passed     42.95%
+  26  V3C48_003275_C_sp._DSM109063_a2                2.23%    passed     58.19%
+  27  IAT38_007367_C_sp._OR918_a2                    2.23%    passed     45.19%
+  28  V5J40_005605_K_europaea_PYCC6162_a1            8.92%    passed     82.88%
+  29  V865_006093_K_europaea_PYCC6329_a2            10.55%    passed     72.69%
+  30  V866_007178_K_sp._B9012_a2                    10.55%    passed     73.81%
+  31  L199_007159_K_botswanensis_CBS12716_a1         8.92%    passed     83.05%
+  32  V5J51_003420_K_botswanensis_CBS12717_a2       10.55%    passed     86.21%
+  33  I203_107551_K_mangrovensis_CBS8507_a1          9.51%    passed     85.23%
+  34  I204_107540_K_mangrovensis_CBS8886_a2         10.55%    passed     81.24%
+  35  I302_100735_K_bestiolae_CBS10118_a1            8.92%    passed     99.99%
+  36  I206_101553_K_pini_CBS10737_a2                 7.13%    passed     84.33%
+  37  L201_002081_K_dendrophila_CBS6074_a2           9.21%    passed     67.39%
+  38  V5J57_001741_K_ovata_CBS15475_a1-a2            0.30%    passed     98.15%
+  39  V5J66_001645_K_endophytica_DSM106749_a1-a2     1.34%    passed     13.57%
+  40  IL334_002001_K_shivajii_CBS11374_a2           10.55%    passed     95.26%
+  41  I317_105142_K_heveanensis_CBS569_a1            1.63%    passed     99.90%
+  42  I316_00737_K_heveanensis_BCC8398_a2            7.13%    passed     97.98%
+  43  IAT40_004887_K_sp._CBS6097_a1                  1.49%    passed     98.41%
+  44  IAU59_004900_K_sp._CBS9459_a1                  1.49%    passed     99.95%
+  45  V5J71_004692_K_fici_DSM109064_a1               2.67%    passed     48.54%
+  46  IAU60_001401_K_sp._DSM27419_a2                 0.89%    passed     99.11%
+  47  CI109_106520_K_shandongensis_CBS12478_a1       2.23%    passed     99.24%
+  48  IAR55_005810_K_newhampshirensis_CBS13917_a1    1.93%    passed     99.38%
+  49  JCM_2954_03577_B_alba_JCM2954_a2               1.19%    passed     77.21%
+  50  M231_00593_T_mesenterica_ATCC28783_a2          1.49%    passed     83.46%
+  51  EHS25_001573_S_podzolica_DSM27192_a1           0.89%    passed     96.27%
+****  TOTAL                                          3.33%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: V5J25_003187_C_gattii_E566_a2 is identical to IAS59_003330_C_gattii_WM276_a1 but kept for subsequent analysis
+NOTE: V5J17_003683_C_deuterogattii_CBS10090_a2 is identical to CNBG_3992_C_deuterogattii_R265_a1 but kept for subsequent analysis
+NOTE: V5J33_004210_C_decagattii_CBS11687_a2 is identical to IAS62_004458_C_decagattii_7685027_a1 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.027 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -20706.967
+Optimal log-likelihood: -20706.934
+Proportion of invariable sites: 0.041
+Gamma shape alpha: 1.172
+Parameters optimization took 1 rounds (0.224 sec)
+Time for fast ML tree search: 1.701 seconds
+
+NOTE: ModelFinder requires 53 MB RAM!
+ModelFinder will test up to 260 protein models (sample size: 673) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            21568.823    99  43335.646    43370.201    43782.309
+  2  LG+I          21334.063    100 42868.126    42903.441    43319.300
+  3  LG+G4         20709.918    100 41619.836    41655.150    42071.010
+  4  LG+I+G4       20706.932    101 41615.865    41651.949    42071.551
+  5  LG+R2         20808.845    101 41819.690    41855.774    42275.376
+  6  LG+R3         20709.742    103 41625.485    41663.137    42090.194
+  7  LG+R4         20704.547    105 41619.094    41658.353    42092.827
+ 16  LG+F+G4       20696.211    119 41630.423    41682.068    42167.320
+ 17  LG+F+I+G4     20693.449    120 41626.898    41679.507    42168.308
+ 29  WAG+G4        20821.380    100 41842.761    41878.075    42293.935
+ 30  WAG+I+G4      20817.459    101 41836.919    41873.003    42292.605
+ 42  WAG+F+G4      20856.758    119 41951.516    42003.161    42488.413
+ 43  WAG+F+I+G4    20853.244    120 41946.488    41999.096    42487.897
+ 55  JTT+G4        20526.348    100 41252.696    41288.010    41703.870
+ 56  JTT+I+G4      20523.261    101 41248.521    41284.605    41704.208
+ 68  JTT+F+G4      20511.120    119 41260.239    41311.885    41797.137
+ 69  JTT+F+I+G4    20508.147    120 41256.294    41308.902    41797.703
+ 81  Q.pfam+G4     20697.295    100 41594.590    41629.905    42045.764
+ 82  Q.pfam+I+G4   20694.211    101 41590.421    41626.505    42046.107
+ 94  Q.pfam+F+G4   20710.808    119 41659.616    41711.262    42196.514
+ 95  Q.pfam+F+I+G4 20707.984    120 41655.968    41708.576    42197.377
+107  JTTDCMut+G4   20533.972    100 41267.945    41303.259    41719.119
+108  JTTDCMut+I+G4 20530.868    101 41263.735    41299.819    41719.421
+120  JTTDCMut+F+G4 20519.178    119 41276.356    41328.002    41813.254
+121  JTTDCMut+F+I+G4 20516.187    120 41272.375    41324.984    41813.784
+133  DCMut+G4      20852.406    100 41904.812    41940.127    42355.987
+134  DCMut+I+G4    20846.580    101 41895.160    41931.244    42350.846
+146  DCMut+F+G4    20805.191    119 41848.382    41900.028    42385.280
+147  DCMut+F+I+G4  20798.779    120 41837.558    41890.167    42378.967
+159  VT+G4         20829.148    100 41858.297    41893.611    42309.471
+160  VT+I+G4       20825.792    101 41853.584    41889.668    42309.270
+172  VT+F+G4       20849.107    119 41936.214    41987.860    42473.112
+173  VT+F+I+G4     20845.976    120 41931.951    41984.560    42473.361
+185  PMB+G4        21130.284    100 42460.568    42495.883    42911.743
+186  PMB+I+G4      21126.598    101 42455.195    42491.279    42910.882
+198  PMB+F+G4      21142.424    119 42522.847    42574.493    43059.745
+199  PMB+F+I+G4    21138.947    120 42517.895    42570.504    43059.304
+211  Blosum62+G4   21188.668    100 42577.336    42612.650    43028.510
+212  Blosum62+I+G4 21184.505    101 42571.011    42607.095    43026.697
+224  Blosum62+F+G4 21188.756    119 42615.512    42667.157    43152.410
+225  Blosum62+F+I+G4 21184.922    120 42609.843    42662.452    43151.253
+237  Dayhoff+G4    20850.428    100 41900.857    41936.171    42352.031
+238  Dayhoff+I+G4  20844.588    101 41891.176    41927.260    42346.862
+250  Dayhoff+F+G4  20803.954    119 41845.907    41897.553    42382.805
+251  Dayhoff+F+I+G4 20797.516    120 41835.032    41887.641    42376.441
+Akaike Information Criterion:           JTT+I+G4
+Corrected Akaike Information Criterion: JTT+I+G4
+Bayesian Information Criterion:         JTT+G4
+Best-fit model: JTT+G4 chosen according to BIC
+
+All model information printed to ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.model.gz
+CPU time for ModelFinder: 142.924 seconds (0h:2m:22s)
+Wall-clock time for ModelFinder: 11.371 seconds (0h:0m:11s)
+Generating 1000 samples for ultrafast bootstrap (seed: 517341)...
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -20526.348
+Optimal log-likelihood: -20526.347
+Gamma shape alpha: 1.079
+Parameters optimization took 1 rounds (0.048 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.066593 sec (of wall-clock time) 0.875532 sec(of CPU time)
+Computing RapidNJ tree took 0.007832 sec (of wall-clock time) 0.101766 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -20548.323
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.047 second
+Computing log-likelihood of 98 initial trees ... 2.182 seconds
+Current best score: -20526.347
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20525.932
+Iteration 10 / LogL: -20526.061 / Time: 0h:0m:7s
+Iteration 20 / LogL: -20525.942 / Time: 0h:0m:9s
+Finish initializing candidate tree set (6)
+Current best tree score: -20525.932 / CPU time: 8.804
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -20543.683 / Time: 0h:0m:13s (0h:0m:32s left)
+Iteration 40 / LogL: -20526.190 / Time: 0h:0m:17s (0h:0m:27s left)
+Iteration 50 / LogL: -20525.969 / Time: 0h:0m:21s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -20556.702
+Iteration 60 / LogL: -20541.479 / Time: 0h:0m:25s (0h:0m:17s left)
+Iteration 70 / LogL: -20541.373 / Time: 0h:0m:28s (0h:0m:12s left)
+Iteration 80 / LogL: -20525.956 / Time: 0h:0m:31s (0h:0m:8s left)
+Iteration 90 / LogL: -20525.938 / Time: 0h:0m:34s (0h:0m:4s left)
+Iteration 100 / LogL: -20526.026 / Time: 0h:0m:37s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -20556.702
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20525.932
+Optimal log-likelihood: -20525.932
+Gamma shape alpha: 1.084
+Parameters optimization took 1 rounds (0.037 sec)
+BEST SCORE FOUND : -20525.932
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.126 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.splits.nex
+Total tree length: 8.225
+
+Total number of iterations: 102
+CPU time used for tree search: 481.804 sec (0h:8m:1s)
+Wall-clock time used for tree search: 38.784 sec (0h:0m:38s)
+Total CPU time used: 491.270 sec (0h:8m:11s)
+Total wall-clock time used: 39.543 sec (0h:0m:39s)
+
+Computing bootstrap consensus tree...
+Reading input file ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.splits.nex...
+51 taxa and 208 splits.
+Consensus tree written to ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.contree
+Reading input trees file ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.contree
+Log-likelihood of consensus tree: -20525.945
+
+Analysis results written to: 
+  IQ-TREE report:                ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.iqtree
+  Maximum-likelihood tree:       ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.treefile
+  Likelihood distances:          ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.splits.nex
+  Consensus tree:                ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.contree
+  Screen log file:               ./processed_OGs/OG0004820.aligned.trimAl-gappyout.fa.log
+
+Date and Time: Sun Nov  3 11:47:09 2024

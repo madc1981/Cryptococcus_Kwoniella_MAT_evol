@@ -1,0 +1,23 @@
+Species_strain_ID	Mating_Type	MAT_length
+Cryptococcus_bacillisporus_CA1280	MATalpha	113568
+Cryptococcus_bacillisporus_CA1873	MATa	111912
+Cryptococcus_decagattii_7685027	MATalpha	110111
+Cryptococcus_decagattii_CBS11687	MATa	118163
+Cryptococcus_gatti_WM276	MATalpha	113431
+Cryptococcus_gattii_E566	MATa	125071
+Cryptococcus_tetragattii_IND107	MATalpha	96355
+Cryptococcus_tetragattii_CBS11718	MATa	122377
+Cryptococcus_gatti_MF34	MATalpha	108484
+Cryptococcus_deuterogattii_R265	MATalpha	98964
+Cryptococcus_deuterogattii_CBS10090	MATa	109183
+
+Mann-Whitney U Test Statistic	5.0
+Mann-Whitney U Test P-value	0.04142
+
+Mean MAT_length (MATalpha)	106818.8
+Standard Deviation MAT_length (MATalpha)	7403.7
+Median MAT_length (MATalpha)	109297.5
+
+Mean MAT_length (MATa)	117341.2
+Standard Deviation MAT_length (MATa)	6742.0
+Median MAT_length (MATa)	118163.0
