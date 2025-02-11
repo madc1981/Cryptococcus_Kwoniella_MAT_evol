@@ -43,7 +43,7 @@ Files are organized by figure for ease of reference and reproducibility.
 
 # Installation
 No specific installation is required. Clone this repository using:
-git clone https://github.com/your_username/Cryptococcus_Kwoniella_MAT_evol.git
+git clone https://github.com/madc1981/Cryptococcus_Kwoniella_MAT_evol.git
 
 # Citation
 If using this repository, please cite: Coelho & David-Palma et al., 2025 (under revision).
