@@ -1,6 +1,8 @@
 # Cryptococcus_Kwoniella_MAT_evol
 Evolution of MAT loci in Cryptococcus and Kwoniella
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14851287.svg)](https://doi.org/10.5281/zenodo.14851287)
+
 # Introduction
 This repository contains scripts and data supporting the analysis of _MAT_ loci in _Cryptococcus_ and _Kwoniella_, as presented in Coelho & David-Palma et al., 2025 (under revision)
 
